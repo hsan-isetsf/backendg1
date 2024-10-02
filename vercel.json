@@ -1,0 +1,35 @@
+{
+    "version": 2,
+    "framework": null,
+    "functions": {
+    "api/index.php": { "runtime": "vercel-php@0.6.0" }
+    },
+    "routes": [
+    {
+    "src": "/(.*)",
+    "dest": "/api/index.php"
+    }
+    ],
+    "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "true",
+    "APP_URL": "https://vercel.com/hsanhachichagmailcoms-projects",
+    "APP_KEY": "base64:4MclLM6WeIuJWVVoj43S6PoUs2Lq4lpseZEcKHMIV18=",
+    "APP_CONFIG_CACHE": "/tmp/config.php",
+    "APP_EVENTS_CACHE": "/tmp/events.php",
+    "APP_PACKAGES_CACHE": "/tmp/packages.php",
+    "APP_ROUTES_CACHE": "/tmp/routes.php",
+    "APP_SERVICES_CACHE": "/tmp/services.php",
+    "VIEW_COMPILED_PATH": "/tmp",
+    "CACHE_DRIVER": "array",
+    "LOG_CHANNEL": "stderr",
+    "SESSION_DRIVER": "cookie",
+    "DB_CONNECTION":"mysql",
+    "DB_HOST":"mysql-17405d7c-hsan-d868.d.aivencloud.com",
+    "DB_PORT":"25499",
+    "DB_DATABASE":"dbcommerceg1",
+    "DB_USERNAME":"user1",
+    "DB_PASSWORD":"AVNS_XREA0hxB5q9fLwQBqfm"
+    }
+    
+    }
